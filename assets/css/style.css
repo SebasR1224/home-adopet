@@ -675,6 +675,115 @@ ul.slick-dots {
 	margin-bottom: 30px;
 }
 
+.violeta {
+	background-color: var(--primary-color);
+	padding: 40px 0px;
+	color: var(--white);
+}
+
+/* Estilos para la sección "Sobre Nosotros" */
+#nosotros {
+	background-color: var(--primary-color);
+	padding: 40px 20px;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#nosotros h2 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 36px;
+	color: rgb(255, 255, 255);
+}
+
+#nosotros p {
+	text-align: justify;
+	line-height: 1.6;
+	color: aliceblue;
+}
+
+.container .imagen2 {
+	align-items: center;
+	width: 10%;
+	margin-bottom: 15px;
+	padding: 40px 10px;
+	border-radius: 80px;
+}
+
+/* Estilos para la sección "Hero" */
+#hero {
+	background-image: url("hero-bg.jpg");
+	/* Imagen de fondo */
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0;
+	color: #fff;
+	text-align: center;
+}
+
+#hero h2 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+#hero p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+#hero .btn {
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color
+}
+
+/* estilos para nuestro equipo de trabajo */
+.equipo {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.titulo {
+	text-align: center;
+	margin-bottom: 30px;
+	margin: 20px;
+}
+
+.miembro {
+	width: 25%;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.miembro img {
+	width: 50%;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.miembro h3 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.miembro h4 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.miembro p {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
 
 /* Testimonials Style */
 
